@@ -1,0 +1,143 @@
+* {
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    margin: 2px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: cadetblue;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo p {
+
+    margin-top: 40px;
+    padding: 1px;
+    font-size: medium;
+    font-weight: 700;
+}
+
+nav img {
+    width: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+.nav_link ul {
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+.nav_link ul li {
+    display: inline-block;
+    justify-content: space-between;
+    position: relative;
+    padding: 2px;
+    margin: auto;
+}
+
+.nav_link ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding: 2px;
+    font-size: large;
+    text-transform: uppercase;
+
+}
+
+.nav_link ul li ::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: brown;
+    transition: .88s;
+}
+
+.nav_link ul li :hover::after {
+    width: 82%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.know_me {
+    width: 80%;
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(136, 115, 86);
+
+
+}
+
+.know_col {
+    flex-basis: 45%;
+    margin-left: 50px;
+}
+
+
+.know_col img {
+    margin-top: 0ch;
+    margin-left: 200px;
+    width: 250px;
+}
+
+.know_col h2 {
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+    color: black;
+    padding: 1%;
+}
+
+.know_col h3 {
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    color: black;
+    padding: 8px 2px solid;
+}
+
+.know_col p {
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+    padding: 8px 2px solid;
+    margin: 1px;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid rgb(212, 116, 116);
+    padding: 5px;
+
+
+}
+
+button a {
+    color: black;
+    text-decoration: none;
+    padding: 2px;
+
+}
+
+button:hover {
+    content: '';
+    background-color: brown;
+    transition: 1s;
+
+}
