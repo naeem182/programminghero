@@ -72,6 +72,7 @@ nav img {
     display: flex;
     justify-content: space-between;
     margin-top: 2%;
+    align-items: center;
 }
 
 .know_me {
@@ -174,7 +175,7 @@ button:hover {
     flex-basis: 31%;
     background: #fff3f3;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     padding: 20px 12px;
     box-sizing: border-box;
 
@@ -184,4 +185,44 @@ button:hover {
     content: '';
     box-shadow: 20px 10px rgb(47, 34, 34);
     transition: 1s;
+}
+
+.contact {
+    background-image: url(images/background.png);
+    background-color: #fff3f3;
+}
+
+.bgd {
+    display: flex;
+    justify-content: space-between;
+
+    height: 100vh;
+
+
+
+}
+
+.con_col {
+    flex-basis: 22%;
+    margin: 5px;
+    background-color: #291d1d;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 8px;
+    height: 400px;
+    padding: 20px;
+
+}
+
+.con_col h1 {
+    color: #fff3f3;
+    text-transform: capitalize;
+    font-size: medium;
+    text-align: center;
+
+}
+
+.con_col img {
+    width: 100%;
+
 }
