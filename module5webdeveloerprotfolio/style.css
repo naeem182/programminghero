@@ -8,6 +8,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 
 }
 
@@ -15,7 +16,7 @@ nav {
 nav>ul {
     display: flex;
     align-items: center;
-    text-align: right;
+
 }
 
 nav li {
@@ -45,7 +46,6 @@ nav li a {
     background-color: #FD6E0A;
     color: white;
     border: 0;
-
     padding: 18px 30px;
 
 }
@@ -56,4 +56,20 @@ nav li a {
     font-weight: 700;
     padding: 2px;
 
+}
+
+/*headeer related style*/
+.header {
+    background-color: #fff8f3;
+}
+
+.banner {
+    display: flex;
+    padding: 30px 30px 30px 150px;
+    align-items: center;
+
+}
+
+.banner img {
+    width: 500px;
 }
