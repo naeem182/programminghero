@@ -201,6 +201,8 @@ nav li a {
 .resume-col {
 
     margin: 20px;
+    margin-left: 30px;
+    padding-left: 60px;
 
 }
 
@@ -227,8 +229,37 @@ nav li a {
 
 
 .resume-col-iteam-descrip {
-    font-size: 11px;
+    font-size: 11gitpx;
     font-weight: 450;
     color: #757575;
     width: 550px;
+}
+
+.download-btn {
+    text-align: center;
+}
+
+/*footer design*/
+footer {
+    display: flex;
+    background-color: #fff8f3;
+    margin-top: 100px;
+    gap: 99px;
+
+}
+
+.footer-col {
+    width: 50%;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 25px;
+    color: #181818;
+    border: 0;
+    background: white;
+    width: 100%;
 }
