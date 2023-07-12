@@ -13,24 +13,50 @@ nav {
 }
 
 
+
 nav>ul {
     display: flex;
     align-items: center;
+    padding: 5px;
+    margin: 2px;
+
 
 }
 
 nav li {
     list-style: none;
-    margin-right: 50px;
+    margin-right: 20px;
+
+
+    border: 0;
+    padding: 18px 30px;
+
+
+
+}
+
+nav ul li :hover {
+    content: '';
+    background-color: #FD6E0A;
+    border-radius: 15px;
+    opacity: 1;
+
+
+
+
 }
 
 nav li a {
     text-decoration: none;
+    color: rgb(17, 11, 11);
+    font-size: large;
+    font-weight: 700;
+    padding: 11px;
+
 }
 
-
-
 .pri-color {
+
     color: #FD6E0A;
 
 }
@@ -44,19 +70,31 @@ nav li a {
 .pri-btn {
     border-radius: 5px;
     background-color: #FD6E0A;
-    color: white;
     border: 0;
-    padding: 18px 30px;
+    padding: 15px 25px;
+    color: white;
+    opacity: .7;
+    font-size: medium;
+
 
 }
 
 .pri-btn a {
     color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 2px;
+    text-decoration: none;
+    font-size: medium;
+
 
 }
+
+.pri-btn:hover {
+
+
+    opacity: 1;
+
+}
+
+
 
 /*headeer related style*/
 .header {
@@ -188,6 +226,13 @@ nav li a {
     padding: 30px;
     margin-top: 20px;
 
+}
+
+.skills:hover {
+    opacity: .9;
+    box-shadow: 8px 09px rgb(142, 168, 217);
+
+    border: 3px solid gray;
 }
 
 /*resume   */
