@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex responsive </title>
+    <style>
+        .container {
+            display: flex;
+            margin: 2px;
+            border: 2px solid peru;
+            justify-content: space-between;
+            gap: 3rem;
+            padding: 4rem;
+
+
+
+        }
+
+        .box {
+
+            display: flex;
+            height: 20vh;
+            border: 2em slod black;
+            padding: 5rem;
+            background-color: brown;
+            align-items: center;
+            width: 100%;
+
+            text-align: center;
+        }
+
+        @media screen and (max-width:555px) {
+            .container {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            #box1 {
+                width: 100%;
+
+                background-color: aliceblue;
+            }
+
+            #box2 {
+
+                background-color: aqua;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div style="width:20%" id="box1" class="box">
+            <h2>left</h2>
+        </div>
+        <div style="width:60%" id="box2" class="box">
+            <h2>right</h2>
+        </div>
+    </div>
+
+</body>
+
+</html>
